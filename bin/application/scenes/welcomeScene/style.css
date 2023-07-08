@@ -1,0 +1,39 @@
+
+#BorderPane{
+	-fx-background-image: url(Star_wars_piano_gif.gif);
+	
+    /*-fx-background-size: cover;*/
+    -fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}
+
+
+.icon_button{
+
+    -fx-min-width: 162;
+    -fx-min-height: 43;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 162 43;
+    -fx-background-position: center;
+}
+
+
+#startButton{
+	-fx-background-image: url(start_btn.png);
+}
+
+#startButton:hover{
+	-fx-background-image: url(start_btn_hover.png);
+}
+
+#startButton:pressed{
+	-fx-background-image: url(start_btn_pressed.png);
+}
+
+#logo{
+	-fx-background-image: url(logo.png);
+	-fx-background-size: cover;
+    
+}

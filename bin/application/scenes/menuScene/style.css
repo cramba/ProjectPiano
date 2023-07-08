@@ -1,0 +1,17 @@
+.button {
+	-fx-font-weight: bold;
+	-fx-background-color: grey;
+	-fx-padding: 10px;
+	-fx-background-radius: 30;
+	-fx-font-size: 15;
+}
+
+
+#BorderPane{
+	-fx-background-image: url(background.png);
+	
+    /*-fx-background-size: cover;*/
+    -fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}

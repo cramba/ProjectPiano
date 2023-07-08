@@ -1,0 +1,35 @@
+
+.label{
+	
+	
+	  -fx-font-family: "Star Jedi";
+	 -fx-text-fill: white;	  
+}
+
+.icon_button_small{
+
+    -fx-min-width: 144;
+    -fx-min-height: 38;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 144 38;
+    -fx-background-position: center;
+}
+
+#backButton{
+	-fx-background-image: url(backButton.png);
+}
+
+#backButton:hover{
+	-fx-background-image: url(backButtonHover.png);
+}
+
+#backButton:pressed{
+	-fx-background-image: url(backButtonPressed.png);
+}
+#title{
+    	-fx-background-image: url(logo2.png);
+	    -fx-background-size: cover;
+}
+
+

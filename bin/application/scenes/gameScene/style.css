@@ -1,0 +1,548 @@
+/*#stackPane{
+	-fx-background-image: url(png/deathstar.gif);
+	-fx-background-size: cover;
+	
+} */
+
+
+.icon_button{
+
+    -fx-min-width: 216;
+    -fx-min-height: 57;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 216 57;
+    -fx-background-position: center;
+}
+
+.icon_button_small{
+
+    -fx-min-width: 144;
+    -fx-min-height: 38;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 144 38;
+    -fx-background-position: center;
+}
+
+#backButton{
+	-fx-background-image: url(png/backButton.png);
+}
+
+#backButton:hover{
+	-fx-background-image: url(png/backButtonHover.png);
+}
+
+#backButton:pressed{
+	-fx-background-image: url(png/backButtonPressed.png);
+}
+
+
+#startButton{
+	-fx-background-image: url(png/startGame.png);
+}
+
+#startButton:hover{
+	-fx-background-image: url(png/startGameHover.png);
+}
+
+#startButton:pressed{
+	-fx-background-image: url(png/startGamePressed.png);
+}
+
+
+.white_icon_button{
+
+    -fx-min-width: 70;
+    -fx-min-height: 300;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 70 300;
+    -fx-background-position: center;
+}
+
+
+#key0{
+    -fx-background-image: url(png/c_key_side.png);
+}
+
+#key1{
+    -fx-background-image: url(png/d_key.png);
+}
+
+#key2{
+    -fx-background-image: url(png/e_key.png);
+}
+
+#key3{
+    -fx-background-image: url(png/f_key.png);
+}
+
+#key4{
+    -fx-background-image: url(png/g_key.png);
+}
+
+#key5{
+    -fx-background-image: url(png/a_key.png);
+}
+
+#key6{
+    -fx-background-image: url(png/h_key.png);
+}
+
+#key7{
+    -fx-background-image: url(png/c_key.png);
+}
+
+#key8{
+    -fx-background-image: url(png/d_key.png);
+}
+
+#key9{
+    -fx-background-image: url(png/e_key_side.png);
+}
+
+
+#key0:hover{
+    -fx-background-image: url(png/c_key_side_hover.png);
+}
+
+#key1:hover{
+    -fx-background-image: url(png/d_key_hover.png);
+}
+
+#key2:hover{
+    -fx-background-image: url(png/e_key_hover.png);
+}
+
+#key3:hover{
+    -fx-background-image: url(png/f_key_hover.png);
+}
+
+#key4:hover{
+    -fx-background-image: url(png/g_key_hover.png);
+}
+
+#key5:hover{
+    -fx-background-image: url(png/a_key_hover.png);
+}
+
+#key6:hover{
+    -fx-background-image: url(png/h_key_hover.png);
+}
+
+#key7:hover{
+    -fx-background-image: url(png/c_key_hover.png);
+}
+
+#key8:hover{
+    -fx-background-image: url(png/d_key_hover.png);
+}
+
+#key9:hover{
+    -fx-background-image: url(png/e_key_side_hover.png);
+}
+
+
+
+#key0:pressed{
+	-fx-background-image: url(png/c_key_side_action.png);
+}
+
+#key1:pressed{
+	-fx-background-image: url(png/d_key_action.png);
+}
+
+#key2:pressed{
+	-fx-background-image: url(png/e_key_action.png);
+}
+
+#key3:pressed{
+	-fx-background-image: url(png/f_key_action.png);
+}
+
+#key4:pressed{
+	-fx-background-image: url(png/g_key_action.png);
+}
+
+#key5:pressed{
+	-fx-background-image: url(png/a_key_action.png);
+}
+
+#key6:pressed{
+	-fx-background-image: url(png/h_key_action.png);
+}
+
+#key7:pressed{
+	-fx-background-image: url(png/c_key_action.png);
+}
+
+#key8:pressed{
+	-fx-background-image: url(png/d_key_action.png);
+}
+
+#key9:pressed{
+	-fx-background-image: url(png/e_key_side_action.png);
+}
+
+
+
+#keyPlayed0{
+	-fx-background-image: url(png/c_key_side_player.png);
+}
+
+#keyPlayed1{
+    -fx-background-image: url(png/d_key_player.png);
+}
+
+#keyPlayed2{
+    -fx-background-image: url(png/e_key_player.png);
+}
+
+#keyPlayed3{
+    -fx-background-image: url(png/f_key_player.png);
+}
+
+#keyPlayed4{
+    -fx-background-image: url(png/g_key_player.png);
+}
+
+#keyPlayed5{
+	-fx-background-image: url(png/a_key_player.png);
+}
+
+#keyPlayed6{
+    -fx-background-image: url(png/h_key_player.png);
+}
+
+#keyPlayed7{
+    -fx-background-image: url(png/c_key_player.png);
+}
+
+#keyPlayed8{
+    -fx-background-image: url(png/d_key_player.png);
+}
+
+#keyPlayed9{
+    -fx-background-image: url(png/e_key_side_player.png);
+}
+
+
+
+#keyMarked0{
+	-fx-background-image: url(png/c_key_side_marked.png);
+}
+
+#keyMarked1{
+    -fx-background-image: url(png/d_key_marked.png);
+}
+
+#keyMarked2{
+    -fx-background-image: url(png/e_key_marked.png);
+}
+
+#keyMarked3{
+    -fx-background-image: url(png/f_key_marked.png);
+}
+
+#keyMarked4{
+    -fx-background-image: url(png/g_key_marked.png);
+}
+
+#keyMarked5{
+	-fx-background-image: url(png/a_key_marked.png);
+}
+
+#keyMarked6{
+    -fx-background-image: url(png/h_key_marked.png);
+}
+
+#keyMarked7{
+    -fx-background-image: url(png/c_key_marked.png);
+}
+
+#keyMarked8{
+    -fx-background-image: url(png/d_key_marked.png);
+}
+
+#keyMarked9{
+    -fx-background-image: url(png/e_key_side_marked.png);
+}
+
+
+.black_icon_button{
+
+    -fx-min-width: 40;
+    -fx-min-height: 180;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 40 180;
+    -fx-background-position: center;
+}
+
+#key10, #key15{
+    -fx-background-image: url(png/cs_key.png);
+}
+
+#key11, #key16{
+    -fx-background-image: url(png/ds_key.png);
+}
+
+#key12{
+    -fx-background-image: url(png/fs_key.png);
+}
+
+#key13{
+    -fx-background-image: url(png/gs_key.png);
+}
+
+#key14{
+    -fx-background-image: url(png/as_key.png);
+}
+
+
+#key10:hover, #key15:hover{
+    -fx-background-image: url(png/cs_key_hover.png);
+}
+
+#key11:hover, #key16:hover{
+    -fx-background-image: url(png/ds_key_hover.png);
+}
+
+#key12:hover{
+    -fx-background-image: url(png/fs_key_hover.png);
+}
+
+#key13:hover{
+    -fx-background-image: url(png/gs_key_hover.png);
+}
+
+#key14:hover{
+    -fx-background-image: url(png/as_key_hover.png);
+}
+
+
+#key10:pressed, #key15:pressed{
+    -fx-background-image: url(png/cs_key_action.png);
+}
+
+#key11:pressed, #key16:pressed{
+    -fx-background-image: url(png/ds_key_action.png);
+}
+
+#key12:pressed{
+    -fx-background-image: url(png/fs_key_action.png);
+}
+
+#key13:pressed{
+    -fx-background-image: url(png/gs_key_action.png);
+}
+
+#key14:pressed{
+    -fx-background-image: url(png/as_key_action.png);
+}
+
+#keyPlayed10, #keyPlayed15{
+    -fx-background-image: url(png/cs_key_player.png);
+}
+
+#keyPlayed11, #keyPlayed16{
+    -fx-background-image: url(png/ds_key_player.png);
+}
+
+#keyPlayed12{
+    -fx-background-image: url(png/fs_key_player.png);
+}
+
+#keyPlayed13{
+    -fx-background-image: url(png/gs_key_player.png);
+}
+
+#keyPlayed14{
+    -fx-background-image: url(png/as_key_player.png);
+}
+
+
+#keyMarked10, #keyMarked15{
+    -fx-background-image: url(png/cs_key_marked.png);
+}
+
+#keyMarked11, #keyMarked16{
+    -fx-background-image: url(png/ds_key_marked.png);
+}
+
+#keyMarked12{
+    -fx-background-image: url(png/fs_key_marked.png);
+}
+
+#keyMarked13{
+    -fx-background-image: url(png/gs_key_marked.png);
+}
+
+#keyMarked14{
+    -fx-background-image: url(png/as_key_marked.png);
+}
+/* .button {
+	-fx-font-weight: bold;
+	-fx-background-color: grey;
+	-fx-padding: 10px;
+	-fx-background-radius: 30;
+	-fx-font-size: 15;
+}*/
+
+
+#borderPane{
+	-fx-background-image: url(png/deathstar.gif);
+	-fx-background-size: cover;
+	
+}
+
+#r2d2_off {
+	-fx-background-image: url(png/r2d2_off.png);
+}
+
+#r2d2_on {
+	-fx-background-image: url(png/r2d2_on.png);
+}
+
+
+#speech{
+	-fx-background-image: url(png/speechbubble.png);
+	-fx-background-size: cover;
+}
+
+#score_Board{
+    -fx-background-image: url(png/scoreBoard.png);
+}
+
+
+#keyLoose0{
+    -fx-background-image: url(png/c_key_side_action.png);
+}
+
+#keyLoose1{
+    -fx-background-image: url(png/d_key_action.png);
+}
+
+#keyLoose2{
+    -fx-background-image: url(png/e_key_action.png);
+}
+
+#keyLoose3{
+    -fx-background-image: url(png/f_key_action.png);
+}
+
+#keyLoose4{
+    -fx-background-image: url(png/g_key_action.png);
+}
+
+#keyLoose5{
+    -fx-background-image: url(png/a_key_action.png);
+}
+
+#keyLoose6{
+    -fx-background-image: url(png/h_key_action.png);
+}
+
+#keyLoose7{
+    -fx-background-image: url(png/c_key_action.png);
+}
+
+#keyLoose8{
+    -fx-background-image: url(png/d_key_action.png);
+}
+
+#keyLoose9{
+    -fx-background-image: url(png/e_key_side_action.png);
+}
+
+#keyLoose10, #keyLoose15{
+    -fx-background-image: url(png/cs_key_action.png);
+}
+
+#keyLoose11, #keyLoose16{
+    -fx-background-image: url(png/ds_key_action.png);
+}
+
+#keyLoose12{
+    -fx-background-image: url(png/fs_key_action.png);
+}
+
+#keyLoose13{
+    -fx-background-image: url(png/gs_key_action.png);
+}
+
+#keyLoose14{
+    -fx-background-image: url(png/as_key_action.png);
+}
+
+
+#keyWin0{
+    -fx-background-image: url(png/c_key_side_player.png);
+}
+
+#keyWin1{
+    -fx-background-image: url(png/d_key_player.png);
+}
+
+#keyWin2{
+    -fx-background-image: url(png/e_key_player.png);
+}
+
+#keyWin3{
+    -fx-background-image: url(png/f_key_player.png);
+}
+
+#keyWin4{
+    -fx-background-image: url(png/g_key_player.png);
+}
+
+#keyWin5{
+    -fx-background-image: url(png/a_key_player.png);
+}
+
+#keyWin6{
+    -fx-background-image: url(png/h_key_player.png);
+}
+
+#keyWin7{
+    -fx-background-image: url(png/c_key_player.png);
+}
+
+#keyWin8{
+    -fx-background-image: url(png/d_key_player.png);
+}
+
+#keyWin9{
+    -fx-background-image: url(png/e_key_side_player.png);
+}
+
+#keyWin10, #keyWin15{
+    -fx-background-image: url(png/cs_key_player.png);
+}
+
+#keyWin11, #keyWin16{
+    -fx-background-image: url(png/ds_key_player.png);
+}
+
+#keyWin12{
+    -fx-background-image: url(png/fs_key_player.png);
+}
+
+#keyWin13{
+    -fx-background-image: url(png/gs_key_player.png);
+}
+
+#keyWin14{
+    -fx-background-image: url(png/as_key_player.png);
+}
+
+#score{
+    
+	  -fx-text-fill: WHITESMOKE;
+	  -fx-font-size: 30pt ;
+     
+}
+
+
+

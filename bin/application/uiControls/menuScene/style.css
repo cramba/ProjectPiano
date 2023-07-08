@@ -1,0 +1,70 @@
+.icon_button{
+
+    -fx-min-width: 216;
+    -fx-min-height: 57;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 216 57;
+    -fx-background-position: center;
+}
+
+
+.icon_button_difficulty{
+
+    -fx-min-width: 124;
+    -fx-min-height: 38;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat no-repeat;
+    -fx-background-size: 124 38;
+    -fx-background-position: center;
+}
+
+#easyButton{
+	-fx-background-image: url(easy_button.png);
+}
+
+#easyButton:hover{
+	-fx-background-image: url(easy_button_hover.png);
+}
+
+#easyButtonSelected{
+	-fx-background-image: url(easy_button_selected.png);
+}
+
+#mediumButton{
+	-fx-background-image: url(medium_button.png);
+}
+
+#mediumButton:hover{
+	-fx-background-image: url(medium_button_hover.png);
+}
+
+#mediumButtonSelected{
+	-fx-background-image: url(medium_button_selected.png);
+}
+
+#hardButton{
+	-fx-background-image: url(hard_button.png);
+}
+
+#hardButton:hover{
+	-fx-background-image: url(hard_button_hover.png);
+}
+
+#hardButtonSelected{
+	-fx-background-image: url(hard_button_selected.png);
+}
+
+
+
+#playButton{
+	-fx-background-image: url(play_button.png);
+}
+
+#playButton:hover{
+	-fx-background-image: url(play_button_hover.png);
+}
+
+#playButton:pressed{
+	-fx-background-image: url(play_button_pressed.png);
+}

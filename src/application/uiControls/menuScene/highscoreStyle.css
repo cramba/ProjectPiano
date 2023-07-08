@@ -1,0 +1,22 @@
+.list-cell {
+    -fx-control-inner-background: #0A0A0A;
+     -fx-font-family: "Star Jedi";
+     -fx-alignment: center;
+   	  -fx-text-fill: white;
+    
+}
+
+ .list-cell:odd {
+    -fx-control-inner-background: #1F1F1F;
+ }
+
+.list-cell:filled:hover {
+    -fx-background-color: #FF0000;
+    -fx-text-fill: white;
+}
+
+
+.list-cell:empty {
+    -fx-background-color: black;
+}
+
